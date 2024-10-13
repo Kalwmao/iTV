@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #007bff;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.nav-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+.app-button {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+}
+
+.app-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode button {
+    background-color: #555;
+}
+
+.dark-mode button:hover {
+    background-color: #777;
+}

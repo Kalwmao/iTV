@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart TV App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h1>Smart TV App</h1>
+        <button class="nav-button" onclick="launchPage('appstore.html')">App Store</button>
+        <button class="nav-button" onclick="launchPage('settings.html')">Settings</button>
+    </nav>
+    
+    <section>
+        <h2>Popular Apps</h2>
+        <div class="app-grid">
+            <button class="app-button" onclick="launchApp('https://www.netflix.com')">Netflix</button>
+            <button class="app-button" onclick="launchApp('https://www.youtube.com')">YouTube</button>
+            <button class="app-button" onclick="launchApp('https://www.facebook.com')">Facebook</button>
+            <button class="app-button" onclick="launchApp('https://www.instagram.com')">Instagram</button>
+            <button class="app-button" onclick="launchApp('https://www.twitter.com')">Twitter</button>
+            <button class="app-button" onclick="launchApp('https://www.tiktok.com')">TikTok</button>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
